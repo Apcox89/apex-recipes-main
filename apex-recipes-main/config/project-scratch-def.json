@@ -1,6 +1,6 @@
 {
     "orgName": "Apex Recipes",
-    "edition": "Developer",
+    "edition": "developer",
     "country": "US",
     "language": "en_US",
     "features": ["Walkthroughs", "PlatformCache", "EnableSetPasswordInApi"],
