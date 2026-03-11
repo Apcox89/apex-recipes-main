@@ -1,0 +1,54 @@
+                          ┌──────────────────────────────┐
+                          │        End Users              │
+                          │  (Support Agents, Customers)  │
+                          └──────────────┬───────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────────┐
+                          │     Lightning UI Layer        │
+                          │  - Record Pages               │
+                          │  - List Views                 │
+                          │  - (Future) LWC Components    │
+                          └──────────────┬───────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────────┐
+                          │   Support Ticket Object       │
+                          │  Fields: Status, Priority,    │
+                          │  Category, Closed_On__c, etc. │
+                          └──────────────┬───────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────────┐
+                          │ Automation Layer (Flows)      │
+                          │ - Status Trigger Closed On    │
+                          │   Flow (V1)                   │
+                          │ - Field Updates               │
+                          └──────────────┬───────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────────┐
+                          │     Apex Logic Layer          │
+                          │  (Apex Recipes Patterns)      │
+                          │ - Trigger Handlers            │
+                          │ - Bulkification               │
+                          │ - SOQL Queries                │
+                          │ - Async Queueables (future)   │
+                          └──────────────┬───────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────────┐
+                          │     Integration Layer         │
+                          │  (Future Enhancements)        │
+                          │ - Platform Events             │
+                          │ - REST Integrations           │
+                          │ - External Services           │
+                          └──────────────┬───────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────────┐
+                          │     Data Storage Layer        │
+                          │  - Salesforce Database        │
+                          │  - Audit Fields               │
+                          │  - History Tracking           │
+                          └──────────────────────────────┘
